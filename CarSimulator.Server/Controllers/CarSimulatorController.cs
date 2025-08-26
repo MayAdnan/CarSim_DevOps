@@ -4,6 +4,7 @@ using CarSimulator.Server.Models.ViewModels;
 using DataLogicLibrary.Factories;
 using DataLogicLibrary.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace CarSimulator.Server.Controllers
 {
