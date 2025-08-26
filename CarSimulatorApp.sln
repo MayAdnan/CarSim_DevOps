@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSimulator.Server", "CarS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSimulatorServer_Tests", "CarSimulatorServer_Tests\CarSimulatorServer_Tests.csproj", "{8EE428E3-380D-4A2F-A252-6D8B74B8D63F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLogicLibrary_Tests", "DataLogicLibrary_Tests\DataLogicLibrary_Tests.csproj", "{94646AAF-E43F-42D6-A95F-7062AC1C5EF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8EE428E3-380D-4A2F-A252-6D8B74B8D63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EE428E3-380D-4A2F-A252-6D8B74B8D63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EE428E3-380D-4A2F-A252-6D8B74B8D63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94646AAF-E43F-42D6-A95F-7062AC1C5EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94646AAF-E43F-42D6-A95F-7062AC1C5EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94646AAF-E43F-42D6-A95F-7062AC1C5EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94646AAF-E43F-42D6-A95F-7062AC1C5EF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
