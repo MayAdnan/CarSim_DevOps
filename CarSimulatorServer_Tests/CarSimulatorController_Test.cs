@@ -12,7 +12,7 @@ using Moq;
 
 namespace CarSimulatorServer_Tests
 {
-    public class CarStimulatorController_Test
+    public class CarSimulatorController_Test
     {
         [Fact]
         public async Task Index_WhenSelectedActionIs7_ShouldRedirectToIndex()
