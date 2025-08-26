@@ -1,5 +1,4 @@
-﻿using CarSimulator.Server.Models;
-using DataLogicLibrary.DTO;
+﻿using DataLogicLibrary.DTO;
 
 namespace CarSimulator.Server.Models.ViewModels
 {

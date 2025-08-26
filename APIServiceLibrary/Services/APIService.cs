@@ -1,12 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using APIServiceLibrary.DTO;
+using Newtonsoft.Json;
 using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
-using APIServiceLibrary.DTO;
-using System.Net.Http;
 
 namespace APIServiceLibrary.Services
 {

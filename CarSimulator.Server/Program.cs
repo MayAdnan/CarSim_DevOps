@@ -1,12 +1,11 @@
 using APIServiceLibrary.Services;
-using DataLogicLibrary.DirectionStrategies.Interfaces;
-using DataLogicLibrary.DirectionStrategies;
-using DataLogicLibrary.Factories;
-using DataLogicLibrary.Services.Interfaces;
-using DataLogicLibrary.Services;
-using Moq;
-using DataLogicLibrary.Infrastructure.Enums;
 using CarSimulator.Server.Factories;
+using DataLogicLibrary.DirectionStrategies;
+using DataLogicLibrary.DirectionStrategies.Interfaces;
+using DataLogicLibrary.Factories;
+using DataLogicLibrary.Infrastructure.Enums;
+using DataLogicLibrary.Services;
+using DataLogicLibrary.Services.Interfaces;
 
 namespace CarSimulator.Server
 {
