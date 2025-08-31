@@ -10,7 +10,7 @@ using DataLogicLibrary.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 
-namespace CarSimulatorServer_Tests
+namespace CarSimulatorServer_Tests.Controllers
 {
     public class CarSimulatorController_Test
     {
@@ -44,7 +44,7 @@ namespace CarSimulatorServer_Tests
                 Results = new List<ResultDTO>
                 {
                     new ResultDTO
-                    { Name = new NameDTO {Title = "Mr", First = "John", Last = "Mohammed"},
+                    { Name = new NameDTO {Title = "Mr", First = "Mohammed", Last = "Ali"},
                         Location= new LocationDTO {City = "Stockholm", Country = "Sweden"}
 
                     }
@@ -54,8 +54,8 @@ namespace CarSimulatorServer_Tests
             var fakeDriver = new Driver
             {
                 Title = "Mr",
-                First = "John",
-                Last = "Mohammed",
+                First = "Mohammed",
+                Last = "Ali",
                 City = "Stockholm",
                 Country = "Sweden"
             };
@@ -88,8 +88,8 @@ namespace CarSimulatorServer_Tests
 
             Assert.NotNull(model.Driver);
             Assert.Equal("Mr", model.Driver.Title);
-            Assert.Equal("John", model.Driver.First);
-            Assert.Equal("Mohammed", model.Driver.Last);
+            Assert.Equal("Mohammed", model.Driver.First);
+            Assert.Equal("Ali", model.Driver.Last);
             Assert.Equal("Stockholm", model.Driver.City);
             Assert.Equal("Sweden", model.Driver.Country);
 
@@ -142,7 +142,7 @@ namespace CarSimulatorServer_Tests
                 Car = new Car { },
                 CurrentStatus = fakeinitialStatus,
                 SelectedAction = 1,
-                Driver = new Driver { First = "John" }
+                Driver = new Driver { First = "Mohammed" }
             };
 
             //act 
