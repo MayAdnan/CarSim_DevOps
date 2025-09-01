@@ -8,6 +8,7 @@ namespace DataLogicLibrary.Services
     public class SimulationLogicService : ISimulationLogicService
     {
         public delegate IDirectionStrategy DirectionStrategyResolver(MovementAction movementAction);
+        // delegate är som ett interface för metoder, den kan peka på olika metoder som matchar signaturen
 
         public SimulationLogicService(IDirectionContext directionContext, DirectionStrategyResolver directionStrategyResolver)
         {
